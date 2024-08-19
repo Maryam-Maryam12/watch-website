@@ -1,0 +1,192 @@
+body{
+	font-family: "Fredoka", sans-serif;
+    background-color: white;
+}
+.navbar-custom {
+   background-color: white;
+}
+
+.navbar-custom span{
+	color: #ed9a07;
+	font-family: 'Great Vibes', cursive;
+	font-size: 25px;
+}
+.navbar-custom .navbar-brand img {
+	max-height: 40px;
+	margin-right: 10px;
+}
+
+
+
+/*home section*/
+.home-container{
+	background-color: #F8E4D7;
+	border-radius: 40px;
+	padding: 60px;
+	margin-top: 50px;
+}
+.container span{
+	color: #ed9a07;
+}
+.custom-btn {
+	background-color: #ed9a07;
+	color: #fff;
+}
+
+
+
+/*special feature*/
+.special-feature{
+            background-color: white;
+            padding: 40px 0;
+        }
+
+
+        .feature-card {
+        	padding: 30px;
+        	border-radius: 10px;
+    		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            text-align: center;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .feature-card .circle {
+		    width: 100px;
+		    height: 100px;
+		    background-color: white;
+		    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+		    color:  #ed9a07;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    border-radius: 50%;
+		    font-weight: bold;
+		    font-size: 16px;
+		    margin-bottom: 10px;
+		}
+		.feature-card .circle i{
+			font-size: 50px;
+		}
+        .read-more {
+            color: #ed9a07;
+            text-decoration: underline;
+        }
+
+
+/*Our Awesome Product Section*/
+
+.product{
+            background-color: white;
+            padding: 40px 0;
+        }
+ .card {
+        	border-radius: 10px;
+    		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            text-align: center;
+        }
+.card .btn-orange{
+	background-color: #ed9a07;
+	color: #fff;
+	font-weight: 700;
+}
+.card img{
+	 height: 300px; /* Set the desired fixed height */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+}
+
+
+
+
+
+.review{
+background-color: #F8E4D7;
+padding: 50px;
+margin: 15px 0px;
+}
+.custom-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle {
+            width: 80px;
+            height: 80px;
+            background-color: #ed9a07;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .custom-card .circle i{
+			font-size: 37px;
+		}
+
+
+
+.footer {
+            background-color:  #F8E4D7;
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-logo {
+            color: #ed9a07;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+        	font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-logo span{
+			color: #ed9a07;
+			font-family: 'Great Vibes', cursive;
+		}
+        .footer-links a:hover {
+            color: #ed9a07;
+        }
+
+        .social-icons {
+            font-size: 24px;
+            margin: 0 10px;
+            color: black;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons:hover {
+            color: #ed9a07;
+        }
